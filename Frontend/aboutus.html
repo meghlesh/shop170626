@@ -1,0 +1,2652 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Confer - Consulting Website Template Free Download</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Consulting Website Template Free Download" name="keywords">
+        <meta content="Consulting Website Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <style>
+
+
+ /* TOP BAR Start Css   */
+
+.top-bar{
+  
+background:#1f6fae;
+color:#eeeeee;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 40px;
+font-size:14px;
+font-family:'oswald', sans-serif;
+}
+
+.top-left{
+display:flex;
+}
+
+.top-item{
+display:flex;
+align-items:center;
+gap:10px;
+padding-right:20px;
+margin-right:20px;
+border-right:1px solid rgba(255,255,255,0.3);
+}
+
+.top-right{
+display:flex;
+gap:20px;
+}
+
+.social i{
+cursor:pointer;
+color: white;
+}
+
+
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 8px 12px;
+    font-size: 11px;
+    flex-wrap: nowrap;
+  }
+
+  .top-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .top-item {
+    gap: 5px;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .top-right {
+    gap: 10px;
+  }
+
+  .social i {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar {
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+
+  .top-left {
+    gap: 6px;
+  }
+
+  .top-item {
+    gap: 4px;
+    padding-right: 6px;
+    margin-right: 6px;
+  }
+
+  .social i {
+    font-size: 12px;
+  }
+}
+/* TOP BAR end CSS  */
+            
+
+
+
+/* HEADER */
+ .header {
+            background: #0A2540;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 50px;
+            flex-wrap: wrap;
+            /* important for toggle */
+        }
+
+        /* LOGO */
+
+        #brand {
+            width: 180px;
+            margin-left: -30px;
+            
+        }
+
+        /* NAVIGATION */
+
+        .nav {
+            display: flex;
+            align-items: center;
+             gap: 30px;
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+            gap: 18px;
+            margin-right: 4px;
+            margin-top: 18px;
+        }
+
+        .nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+            transition: 0.3s;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .nav ul li a:hover,
+        .nav ul li a.active {
+            color: #1e88e5;
+            border-bottom: 2px solid #1e88e5;
+                padding-bottom: 4px;
+        }
+
+
+
+        /* BUTTONS */
+/* RIGHT SIDE */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart-icon { 
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+
+}
+
+.avatar1 {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+ /* BUTTONS */
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+/* Common Button */
+.btn {
+    padding: 8px 35px;
+    font-size: 13px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* LOGIN BUTTON */
+.login {
+    border: 1px solid #38bdf8;
+    color: white;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.login:hover {
+    background: #1e88e5;
+}
+
+/* REGISTER BUTTON */
+.register {
+    border: 1px solid #1e88e5;
+    color: white;      /* blue text */
+    background: transparent;
+    transition: 0.3s;
+}
+
+/* ON HOVER / CLICK LOOK */
+.register:hover {
+    background: #1e88e5;
+    color: #fff;
+}
+  
+        /*======================================= */
+        /* HAMBURGER BUTTON */
+        /* ======================================= */
+
+        .menu-toggle {
+            display: none;
+            font-size: 26px;
+            color: white;
+            cursor: pointer;
+            margin-right: -30px;
+            
+        }
+
+        /* ===================================== */
+/* HEADER RESPONSIVE */
+/* ===================================== */
+
+@media (max-width:1024px) {
+
+    .header {
+        padding: 15px 20px;
+    }
+
+    #brand {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-right: 0;
+    }
+
+    .nav {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #0A2540;
+        margin-top: 15px;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+    .header-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .cart {
+        font-size: 22px;
+    }
+
+    /* LOGIN / REGISTER */
+
+    .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: auto;
+    }
+
+    .actions .btn {
+        width: 130px;
+        text-align: center;
+        padding: 10px 20px;
+        margin: 0;
+    }
+}
+
+
+/* ===================================== */
+/* TABLET */
+/* ===================================== */
+
+@media (max-width:768px) {
+
+    .header {
+        padding: 12px 15px;
+    }
+
+    #brand {
+        width: 130px;
+    }
+
+    .menu-toggle {
+        font-size: 24px;
+    }
+
+    .cart {
+        font-size: 20px;
+    }
+
+    .actions .btn {
+        width: 125px;
+        padding: 9px 18px;
+        font-size: 13px;
+    }
+}
+
+
+/* ===================================== */
+/* MOBILE */
+/* ===================================== */
+
+@media (max-width:480px) {
+
+    .header {
+        padding: 10px 12px;
+    }
+
+    #brand {
+        width: 120px;
+    }
+
+    .menu-toggle {
+        font-size: 22px;
+    }
+
+    .nav ul li a {
+        font-size: 13px;
+    }
+
+    .cart {
+        font-size: 18px;
+    }
+
+    .actions {
+        gap: 8px;
+    }
+
+    .actions .btn {
+        width: 120px;
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
+
+
+/* ===================================== */
+/* SMALL DEVICES */
+/* ===================================== */
+
+@media (max-width:320px) {
+
+    #brand {
+        width: 110px;
+    }
+
+    .menu-toggle {
+        font-size: 20px;
+    }
+
+    .actions .btn {
+        width: 110px;
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+}
+
+
+  /* ===== HERO SECTION ===== */
+.hero-section {
+  position: relative;
+  background: url("img/2x\ Hero\ section.png") no-repeat center center/cover;
+  height: 70vh;
+
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+
+  text-align: center;
+  color: #fff;
+}
+
+.hero-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Dark Gradient Overlay */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 20, 60, 0.15);
+}
+
+.hero-title {
+  font-size: clamp(28px, 5vw, 60px);
+  font-weight: 400; /* Normal text */
+  line-height: 1.2;
+}
+
+/* ===== Mobile Responsive ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+    padding: 70px 20px;
+    min-height: 90vh;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+}
+
+
+.serve-section {
+  background: #d5edff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.serve-section h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #1f3b4d;
+  font-size: 42px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.underline_serve {
+  width: 60px;
+  height: 6px;
+  background: #007bff;
+  margin: 10px auto 40px;
+}
+
+/* Cards Layout */
+.card-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns grid */
+  gap: 25px;
+}
+
+/* Top 3 cards */
+.card:nth-child(1) {
+  grid-column: span 2;
+}
+.card:nth-child(2) {
+  grid-column: span 2;
+}
+.card:nth-child(3) {
+  grid-column: span 2;
+}
+
+/* Bottom 2 cards center align */
+.card:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+.card:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+/* Card Design */
+.card {
+  position: relative; /* important */
+  background: #fff;
+  padding: 30px 20px 20px 20px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+/* IMAGE AS ICON (TOP-LEFT CORNER) */
+.card img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+   width: 55px;   /* increase from 40px */
+  height: 55px;  /* increase from 40px */
+  object-fit: contain;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* TEXT SPACE (image overlap hou naye mhanun) */
+.card p {
+  margin-top: 70px;
+  font-size: 15px;
+  color: #2c3e50;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .card {
+    grid-column: span 1 !important;
+    width: 100%;
+
+    aspect-ratio: 1 / 1;  /* square */
+
+    position: relative;
+    padding: 25px 15px 15px 15px;
+    text-align: left;   /* 👈 desktop sarkha */
+  }
+
+  /* Icon same desktop style (top-left) */
+  .card img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Text below icon */
+  .card p {
+    margin-top: 70px;   /* 👈 icon sathi space */
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+.approach-section {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+.container {
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+}
+
+
+.left img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0px;
+}
+
+.right {
+  max-width: 500px;
+}
+
+.right h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #1f3b4d;
+  font-size: 42px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.underline {
+  width: 50px;
+  height: 6px;
+  background: #007bff;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.item i {
+  background: #e6f0ff;
+  color: #007bff;
+  padding: 12px;
+  border-radius: 6px;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.item p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .approach-section .container,
+  .team-section .container,
+  .commitment-section .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+@media (max-width: 768px) {
+  .footer .row {
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+
+
+  /* Items LEFT aligned */
+  .item {
+    justify-content: flex-start;  /* left align */
+    text-align: left;
+  }
+
+  /* Icon + text alignment fix */
+  .item i {
+    margin-right: 10px;
+  }
+
+  .item p {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+
+.team-section {
+  background: #d5edff;
+  padding: 60px 20px;
+}
+
+
+
+/* Left Text */
+.team-text {
+  flex: 1;
+}
+
+.team-text h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #1f3b4d;
+  font-size: 42px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  
+}
+
+
+
+.team-text p {
+  color: #4a5a6a;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Right Image */
+.team-image {
+  flex: 1;
+}
+
+.team-image img {
+  width: 100%;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .team-image img {
+    margin-top: 20px;
+  }
+
+   .team-text p {
+    text-align: justify;
+  }
+}
+
+
+.commitment-section {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+
+
+/* Left Text */
+.commitment-text {
+  flex: 1;
+}
+
+.commitment-text h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #1f3b4d;
+  font-size: 42px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.commitment-text p {
+  color: #5a6a7a;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Right Image */
+.commitment-image {
+  flex: 1;
+}
+
+.commitment-image img {
+  width: 100%;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .commitment-image img {
+    margin-top: 20px;
+  }
+
+  .commitment-text p {
+    text-align: justify;
+  }
+}
+
+
+.cta-wrapper {
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+/* CARD */
+.cta-card {
+  position: relative;
+  background: url("img/CTA Bg.png") no-repeat center
+    center/cover;
+  padding: 50px 40px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* DARK OVERLAY */
+.cta-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 20, 60, 0.15);
+}
+
+/* CONTENT ABOVE OVERLAY */
+.cta-card .row {
+  position: relative;
+  z-index: 2;
+}
+
+/* HEADING */
+.cta-heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.cta-text {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  color: #dbe7ff;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+/* Primary button (already as is) */
+.cta-btn {
+  background: #2ea3f2;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #0057a3;
+  color: #fff;
+  background-color: #0057a3;
+}
+
+/* New outline button */
+.cta-btn-outline {
+  border: 1px solid #1e88e5;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-btn-outline:hover {
+  background: #1e88e5;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .cta-card {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .cta-card p{
+    text-align: justify;
+  }
+
+}
+
+
+
+/* 09-4 */
+
+
+.company {
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/* Left Side */
+.left {
+  
+    width: 55%;
+    margin-left: -15px;
+}
+
+.left h2 {
+  font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #1f3b4d;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 60px;
+    height: 6px;
+    background: #007bff;
+    margin-bottom: 20px;
+    
+}
+
+.left p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Right Side */
+
+
+.right img {
+    width: 350px;
+    border-radius: 0px;
+}
+.mission-vision {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Box */
+.mv-box {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+
+  /* DARK SHADOW */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+/* Image */
+.mv-img img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+/* Text */
+.mv-text {
+    margin-left: 30px;
+}
+
+.mv-text h2 {
+font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #1f3b4d;
+}
+
+.mv-text p {
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+
+.line.center {
+    margin: 10px auto 30px; /* center line */
+}
+
+@media (max-width: 768px) {
+
+  .mission-vision {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* BOX vertical kar */
+  .mv-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 15px;
+  }
+
+  /* IMAGE TOP */
+  .mv-img img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  /* TEXT */
+  .mv-text {
+    margin-left: 0;
+  }
+
+  /* HEADING CENTER */
+  .mv-text h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  /* UNDERLINE CENTER */
+  .mv-text .line {
+    margin: 8px auto 15px;
+  }
+
+  /* PARAGRAPH */
+  .mv-text p {
+    text-align: justify;
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  /* Heading center */
+  .company .left h2 {
+    text-align: center;
+  }
+
+  /* Underline center */
+  .company .line {
+    margin: 10px auto 20px;
+  }
+
+  /* Paragraph justify */
+  .company .left p {
+    text-align: justify;
+  }
+
+  .company {
+    padding: 40px 10px;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+}
+/* ===== CORE VALUES ===== */
+
+/* ===== WHY CHOOSE ===== */
+.why-choose {
+    padding: 60px 0;
+}
+
+.why-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why-text h2 {
+  font-size: 42px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  color: #444444;
+}
+
+/* Image */
+.why-img img {
+    width: 400px;
+    border-radius: 0px;
+}
+
+.why-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.why-list li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+/* ICON BOX */
+.why-list li img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+
+  background: #e6f0ff;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* TEXT */
+.why-list li span {
+  font-size: 18px;
+  color: #2c3e50; 
+}
+
+@media (max-width: 768px) {
+
+  /* Section padding reduce (side space kami) */
+  .why-choose {
+    padding: 40px 10px;
+  }
+
+  /* Container column madhe */
+  .why-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Heading center */
+  .why-text h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #1f3b4d;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  /* Underline center */
+  .why-text .line {
+    margin: 10px auto 20px;
+  }
+
+  /* IMAGE heading khali annyasathi */
+  .why-img {
+    order: 2;
+    width: 100%;
+  }
+
+  .why-img img {
+    width: 100%;
+    max-width: 280px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* TEXT var */
+  .why-text {
+    order: 1;
+    width: 100%;
+  }
+
+  /* LIST alignment */
+  .why-list {
+    margin-top: 20px;
+  }
+
+  .why-list li {
+    justify-content: flex-start; /* left align */
+    text-align: left;
+  }
+
+  /* Icon size adjust */
+  .why-list li img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Text */
+  .why-list li span {
+    font-size: 14px;
+  }
+}
+
+
+/* ===== CORE VALUES ===== */
+.core-values {
+  background: #0d2b45;
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* NEW container (IMPORTANT) */
+.core-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Heading */
+.Our_core_value {
+  font-size: 42px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+
+/* Center line */
+.line-center {
+  width: 60px;
+  height: 6px;
+  background: #2ea3f2;
+  margin: 10px auto 40px;
+}
+
+/* Grid */
+.values-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: nowrap; /* ← single line */
+}
+
+/* Card */
+.value-card {
+  background: #ffffff;
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.3s;
+}
+
+/* Image */
+.value-card img {
+  width: 65px;
+  margin-bottom: 12px;
+}
+
+/* Text */
+.value-card h4 {
+  /* font-size: 16px;
+  color: #2c3e50; */
+  font-size: 22px;
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+letter-spacing: 0.3px;
+color: #0c2d52;
+}
+
+/* Hover */
+.value-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .values-grid {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    grid-column: span 1 !important;
+
+    /* REMOVE square size */
+    aspect-ratio: auto;
+
+    /* Smaller card */
+    padding: 15px;
+    height: auto;
+  }
+
+  /* Smaller icon */
+  .card img {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+  }
+
+  /* Text spacing adjust */
+  .card p {
+    margin-top: 55px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Heading center */
+  .right h2,
+  .team-text h2,
+  .commitment-text h2 {
+    text-align: center;
+  }
+
+  /* Underline center */
+  .right .underline,
+  .team-text .underline ,
+  .commitment-text .underline{
+    margin: 10px auto 20px;
+  }
+
+}
+
+/* ===================================================
+   RESPONSIVE FIXES — added without changing existing code
+   =================================================== */
+
+/* --- GLOBAL: prevent all horizontal overflow --- */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Fix all sections from overflowing */
+section, div {
+  max-width: 100%;
+}
+
+/* --- Container: reset flex and overflow on all screens --- */
+@media (max-width: 768px) {
+
+  /* The global .container has display:flex which breaks on mobile */
+  .container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  /* Company section */
+  .company {
+    width: 100%;
+    padding: 40px 15px;
+  }
+
+  .company .container {
+    flex-direction: column !important;
+  }
+
+  .company .left {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .company .left h2 {
+    text-align: center;
+  }
+
+  .company .line {
+    margin: 10px auto 20px;
+  }
+
+  .company .left p {
+    text-align: justify;
+  }
+
+  .company .right {
+    width: 100% !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .company .right img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Mission Vision */
+  .mission-vision {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+
+  .mv-box {
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    word-break: break-word;
+    width: 100%;
+  }
+
+  .mv-img img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .mv-text {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .mv-text h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .mv-text .line {
+    margin: 8px auto 15px;
+  }
+
+  .mv-text p {
+    text-align: justify;
+    font-size: 15px;
+    word-wrap: break-word;
+    max-width: 100%;
+  }
+
+  /* Core Values */
+  .values-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .value-card {
+    width: 140px;
+    height: 140px;
+  }
+
+  .value-card img {
+    width: 50px;
+  }
+
+  .value-card h4 {
+    font-size: 14px;
+  }
+
+  /* Why Choose */
+  .why-choose {
+    padding: 40px 15px;
+  }
+
+  .why-choose .container,
+  .why-box {
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .why-text {
+    width: 100% !important;
+    order: 1;
+  }
+
+  .why-text h2 {
+    text-align: center;
+  }
+
+  .why-text .line {
+    margin: 10px auto 20px;
+  }
+
+  .why-img {
+    order: 2;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .why-img img {
+    width: 100% !important;
+    max-width: 280px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .why-list li {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  /* Serve Section */
+  .serve-section {
+    padding: 40px 15px;
+  }
+
+  .serve-section h2 {
+    font-size: 30px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .card {
+    grid-column: span 1 !important;
+    aspect-ratio: auto !important;
+    padding: 15px;
+    height: auto;
+    width: 100% !important;
+  }
+
+  .card img {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .card p {
+    margin-top: 55px;
+    font-size: 13px;
+  }
+
+  /* Approach Section */
+  .approach-section {
+    padding: 40px 15px;
+  }
+
+  .approach-section .container {
+    flex-direction: column !important;
+  }
+
+  .approach-section .left {
+    width: 100% !important;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  .approach-section .left img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .approach-section .why-text {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+
+  .approach-section .why-text h2 {
+    text-align: center;
+  }
+
+  .approach-section .why-text .line {
+    margin: 10px auto 20px;
+  }
+
+  /* Team Section */
+  .team-section .container {
+    flex-direction: column !important;
+    padding: 0 15px !important;
+  }
+
+  .team-text {
+    width: 100% !important;
+  }
+
+  .team-text h2 {
+    text-align: center;
+  }
+
+  .team-text .underline {
+    margin: 10px auto 20px;
+  }
+
+  .team-text p {
+    text-align: justify;
+  }
+
+  .team-image {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+
+  .team-image img {
+    width: 100% !important;
+  }
+
+  /* Commitment Section */
+  .commitment-section .container {
+    flex-direction: column !important;
+    padding: 0 15px !important;
+  }
+
+  .commitment-text {
+    width: 100% !important;
+  }
+
+  .commitment-text h2 {
+    text-align: center;
+  }
+
+  .commitment-text .underline {
+    margin: 10px auto 20px;
+  }
+
+  .commitment-text p {
+    text-align: justify;
+  }
+
+  .commitment-image {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+
+  .commitment-image img {
+    width: 100% !important;
+  }
+
+  /* CTA Section */
+  .cta-wrapper .container {
+    padding: 0 15px !important;
+  }
+
+  .cta-card {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .cta-card p {
+    text-align: justify;
+  }
+
+  /* Right img fix */
+  .right img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+}
+  /* FOOTER Start CSS */
+
+ .footer {
+            background: #0A2540;
+            color: white;
+            padding: 50px 30px 20px;
+            margin-top: 60px;
+        }
+
+        /* FOOTER GRID */
+
+        .footer-container {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+        }
+
+        /* FOOTER LOGO */
+
+        .footer-logo {
+            width: 170px;
+            margin-bottom: 20px;
+        }
+
+        /* CONTACT */
+
+        .footer-contact {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 12px;
+            color: #cfd9e6;
+            
+        }
+
+       .footer-contact i {
+            color: #0796FE;
+            margin-top: 6px;
+        }
+
+        /* TITLES */
+
+        .footer-title {
+            font-size: 22px;
+            margin-bottom: 22px;
+            position: relative;
+        }
+
+        .footer-title::after {
+            content: "";
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: #0796FE;
+        }
+
+        /* LINKS */
+
+        .footer-links {
+            list-style: none;
+            
+           
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+            width: fit-content;
+            
+            
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #cfd9e6;
+            display: flex;
+            gap: 10px;
+            
+        }
+
+        .footer-links a:hover {
+            color: #1e88e5;
+        }
+
+        .footer-links i {
+            color: #1e88e5;
+            padding-top: 6px;
+        }
+
+        .footer-link {
+  color: #cfd9e6;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #1e88e5;
+}
+        /* NEWSLETTER */
+
+        .footer-text {
+            color: #b8c5d6;
+            margin-bottom: 20px;
+        }
+
+        .newsletter {
+            display: flex;
+            gap: 10px;
+        }
+
+        .newsletter input {
+            flex: 1;
+            padding: 12px;
+            background: transparent;
+            border: 1px solid #2d4a68;
+            color: white;
+        }
+
+        .newsletter button {
+            padding: 12px 20px;
+            background: #0796FE;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .newsletter button:hover {
+            background: #1e88e5;
+        }
+
+        /* FOOTER BOTTOM */
+
+        .footer-bottom {
+            border-top: 1px solid #223b55;
+            margin-top: 30px;
+            margin-bottom: -20px;
+            padding-top: 10px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-bottom a{
+            color: #cfd9e6;
+            text-decoration: none;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 20px;
+            font-size: 21px;
+            margin-top: -15px;
+        }
+
+        .footer-social i {
+            color: white;
+            transition: 0.3s;
+        }
+
+/* ===================================== */
+/* FOOTER RESPONSIVE */
+/* ===================================== */
+
+@media (max-width:1024px) {
+
+    .footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .footer {
+        padding: 35px 15px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-logo {
+        width: 150px;
+    }
+
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .footer-contact {
+        font-size: 14px;
+        line-height: 1.6;
+        word-break: break-word;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .newsletter input,
+    .newsletter button {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+        margin-top: 0;
+    }
+}
+
+@media (max-width:480px) {
+
+    .footer {
+        padding: 30px 12px 20px;
+    }
+
+    .footer-logo {
+        width: 130px;
+    }
+
+    .footer-title {
+        font-size: 18px;
+    }
+
+    .footer-contact {
+        font-size: 13px;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+    }
+
+    .footer-text {
+        font-size: 13px;
+    }
+
+    .newsletter input,
+    .newsletter button {
+        padding: 12px;
+    }
+
+    .footer-social {
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+}
+
+        
+
+/* Footer end  CSS*/
+
+
+/* Cart count badge */
+.cart-icon {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+#cartCount {
+    position: absolute;
+    right: -10px;
+    top: -8px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    display: none;
+}
+
+</style>
+    
+  </head>
+
+  <body>
+    <!-- Top Bar Start -->
+    <div class="top-bar">
+
+<div class="top-left">
+
+<div class="top-item">
+<i class="fa-regular fa-clock"></i>
+<span>10:00AM - 7:00PM Mon - Sat</span>
+</div>
+
+<div class="top-item">
+  <a href="tel:+919326246981" style="color:#eeeeee; text-decoration:none; display:flex; align-items:center; gap:10px;">
+    <i class="fa-solid fa-phone"></i>
+    <span>+91 93262 46981</span>
+  </a>
+</div>
+
+</div>
+
+<div class="top-right">
+
+  <div class="social">
+    <a href="https://www.linkedin.com/company/creativewebsolution404/?viewAsMember=true">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+  </div>
+
+  <div class="social">
+    <a href="https://www.instagram.com/creativewebsolution99?utm_source=qr&igsh=OWlxcGlvNG1tNG1s">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+</div>
+
+</div>
+        <!-- Top Bar End -->
+    
+
+<!-- Nav Bar Start -->
+
+<header class="header">
+
+    <a href="index.html"><img src="img/creativesweb.png" id="brand"></a>
+
+    <!-- Hamburger -->
+    <div class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <nav class="nav" id="navMenu">
+
+       <ul>
+            <li><a href="index.html" >HOME</a></li>
+            <li><a href="aboutus.html" class="active">ABOUT US</a></li>
+            <li><a href="product-website.html">PRODUCT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <!-- <li><a href="support.html">SUPPORT</a></li> -->
+            <li><a href="contact-website.html">CONTACT</a></li>
+        </ul>
+
+        <div class="header-right">
+    <a href="cart.html" class="cart-icon">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span id="cartCount">0</span>
+</a>
+    <!-- //Added by Harshada -->
+      <div class="actions">
+            <a href="login.html" class="btn login">LOGIN</a>
+            <a href="Register.html" class="btn register">REGISTER</a>
+        </div>
+
+    <!-- <img src="https://i.pravatar.cc/40" class="avatar1" alt="User Avatar"> -->
+</div>
+  </div>
+
+    </nav>
+
+</header>
+</div>
+<!-- Nav Bar End -->
+
+    <!-- ===== HERO SECTION START ===== -->
+    <section class="hero-section mt-125" style="padding-top: 100px">
+      <div class="container text-center">
+        <div class="hero-content">
+          <h1
+            class="hero-title"
+            style="
+              font-family: &quot;Oswald&quot;, sans-serif;
+              color: #fff;
+              font-weight: 300;
+              font-size: 50px;
+              margin-bottom: 20px;
+            "
+          >
+            ABOUT US
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- ===== HERO SECTION END ===== -->
+    <section class="company">
+      <div class="container">
+        <div class="left">
+          <h2>Our Company</h2>
+          <div class="line"></div>
+
+          <p>
+            Creative Web Solution is a digital software company focused on building powerful, 
+ready-to-use products for agencies, SaaS businesses, and modern organizations. 
+We specialize in creating solutions that simplify workflows, automate operations, 
+and improve productivity. Our goal is to help businesses move faster, reduce 
+complexity, and achieve better results with the right technology.
+          </p>
+
+          <p>
+      We are not just a software provider—we are a growth partner. Every product we 
+build is designed with real-world use cases in mind, ensuring it delivers practical 
+value from day one. From small teams to growing enterprises, our solutions are 
+built to support businesses at every stage.
+          </p>
+        </div>
+
+        <div class="right">
+          <img src="img/Our Company Img1.png" alt="Company" />
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-vision">
+      <!-- Mission -->
+      <div class="mv-box">
+        <div class="mv-img">
+          <img src="img/mission.png" alt="" />
+        </div>
+
+        <div class="mv-text">
+          <h2>Our Mission</h2>
+          <div class="line"></div>
+          <p>
+            To design and deliver reliable, scalable, and innovative software
+            solutions that empower businesses to operate efficiently and grow
+            faster.
+          </p>
+        </div>
+      </div>
+
+      <!-- Vision -->
+      <div class="mv-box">
+        <div class="mv-img">
+          <img src="img/vision.png" alt="" />
+        </div>
+
+        <div class="mv-text">
+          <h2>Our Vision</h2>
+          <div class="line"></div>
+          <p>
+            To become a global leader in software solutions by enabling
+            businesses of all sizes to leverage technology for success.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ===== CORE VALUES ===== -->
+
+    <section class="core-values">
+      <div class="Our Core Values">
+        <h2 class="Our_core_value">Our Core Values</h2>
+        <div class="line-center"></div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <img src="img/Innovation.png" alt="" />
+            <h4>Innovation</h4>
+          </div>
+
+          <div class="value-card">
+            <img src="img/Customer First.png" alt="" />
+            <h4>Customer First</h4>
+          </div>
+
+          <div class="value-card">
+            <img src="img/Quality.png" alt="" />
+            <h4>Quality</h4>
+          </div>
+
+          <div class="value-card">
+            <img src="img/Transparency.png" alt="" />
+            <h4>Transparency</h4>
+          </div>
+
+          <div class="value-card">
+            <img src="img/Growth.png" alt="" />
+            <h4>Growth</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-choose">
+      <div class="container why-box">
+        <!-- Left Content -->
+        <div class="why-text">
+          <h2>Why Choose Creative Web Solution ?</h2>
+          <div class="line"></div>
+
+          <ul class="why-list">
+            <li>
+              <img src="img/Why Choose Us Icon (2).png" alt="" />
+              <span>High-performance and scalable software products</span>
+            </li>
+
+            <li>
+              <img src="img/Why Choose Us Icon (3).png" alt="" />
+              <span>Easy-to-use and quick-to-deploy solutions</span>
+            </li>
+
+            <li>
+              <img src="img/Why Choose Us Icon (4).png" alt="" />
+              <span>Secure systems with reliable performance</span>
+            </li>
+
+            <li>
+              <img src="img/Why Choose Us Icon (5).png" alt="" />
+              <span>Instant access and seamless digital delivery</span>
+            </li>
+
+            <li>
+              <img src="img/Why Choose Us Icon (6).png" alt="" />
+              <span>Regular updates and feature enhancements</span>
+            </li>
+
+            <li>
+              <img src="img/Why Choose Us Icon (1).png" alt="" />
+              <span>Dedicated customer support</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right Image -->
+        <div class="why-img">
+          <img src="img/why choose.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="serve-section">
+      <h2>Who We Serve</h2>
+      <div class="underline_serve"></div>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="img/Agencies.png" alt="" />
+          <p>Agencies managing multiple clients</p>
+        </div>
+
+        <div class="card">
+          <img src="img/SaaS.png" alt="" />
+          <p>SaaS businesses scaling their platforms</p>
+        </div>
+
+        <div class="card">
+          <img src="img/Developer.png" alt="" />
+          <p>Developers building and managing applications</p>
+        </div>
+
+        <div class="card">
+          <img src="img/StartUp.png" alt="" />
+          <p>Startups looking for quick and reliable solutions</p>
+        </div>
+
+        <div class="card">
+          <img src="img/Business.png" alt="" />
+          <p>Businesses aiming to improve efficiency</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach-section">
+      <div class="container">
+        <!-- Left Image -->
+        <div class="left">
+          <img src="img/Rectangle 67106.png" alt="Business Image" />
+        </div>
+
+        <div class="why-text">
+          <h2>Our Approach</h2>
+          <div class="line"></div>
+
+          <ul class="why-list">
+            <li>
+              <img src="img/Our Approach (2).png" alt="" />
+              <span>Understand real business challenges</span>
+            </li>
+
+            <li>
+              <img src="img/Our Approach (3).png" alt="" />
+              <span>Design simple and practical solutions</span>
+            </li>
+
+            <li>
+              <img src="img/Our Approach (4).png" alt="" />
+              <span>Build scalable and high-performance products</span>
+            </li>
+
+            <li>
+              <img src="img/Our Approach (5).png" alt="" />
+              <span>Continuously improve with updates and feedback</span>
+            </li>
+
+            <li>
+              <img src="img/Our Approach (1).png" alt="" />
+              <span>Provide ongoing support and value</span>
+            </li>
+
+           
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <div class="container">
+        <!-- Left Content -->
+        <div class="team-text">
+          <h2>Team</h2>
+          <div class="underline"></div>
+
+          <p>
+            Creative Web Solution is powered by a team of skilled developers,
+            designers, analysts, and support professionals. We are passionate
+            about building products that solve real problems and deliver
+            meaningful results.
+          </p>
+
+          <p>
+            Our team believes in innovation, collaboration, and continuous
+            improvement to ensure we always deliver the best solutions to our
+            customers.
+          </p>
+        </div>
+
+        <!-- Right Image -->
+        <div class="team-image">
+          <img src="img/Team.png" alt="Team Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="commitment-section">
+      <div class="container">
+        <!-- Left Content -->
+        <div class="commitment-text">
+          <h2>Our Commitment</h2>
+          <div class="underline"></div>
+
+          <p>
+            We are committed to delivering software that is reliable, secure,
+            and built for long-term use. Our focus is not just on selling
+            products, but on helping our customers succeed by providing tools
+            that truly make a difference.
+          </p>
+
+          <p>
+            We continuously enhance our products to ensure they stay relevant,
+            effective, and aligned with evolving business needs.
+          </p>
+        </div>
+
+        <!-- Right Image -->
+        <div class="commitment-image">
+          <img src="img/Commitment.png" alt="Commitment Image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-wrapper">
+      <div class="container">
+        <div class="cta-card">
+          <div class="row align-items-center">
+            <!-- LEFT TEXT -->
+            <div class="col-lg-8">
+                
+              <h2 class="cta-heading">Lets Grow Together</h2>
+
+              <p class="cta-text">
+                
+                Whether you are an agency, SaaS business, or growing
+                organization, Creative Web Solution is here to support your
+                journey. Explore our products and discover how the right
+                software can transform your workflow and accelerate your growth.
+              </p>
+              
+            </div>
+
+            
+            <!-- RIGHT BUTTON -->
+            <div class="col-lg-4 text-lg-right text-center mt-3 mt-lg-0">
+              <a href="contact-website.html" class="cta-btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Start -->
+  <footer class="footer">
+
+<div class="footer-container">
+
+<!-- column 1 -->
+
+<div>
+
+<a href="index.html"><img src="img/creativesweb.png" class="footer-logo"></a>
+
+<div class="footer-contact">
+  <a href="https://maps.app.goo.gl/TTv8ueeyD83GUAW86" 
+     target="_blank" 
+     style="color:inherit; text-decoration:none; display:flex; gap:10px;">
+    
+    <i class="fa-solid fa-location-dot"></i>
+
+    <span>
+      LWT, 203, C/O, ITI RD, above PNG,<br>
+      near Parihar Chowk, Aundh,<br>
+      Maharashtra-411007
+    </span>
+
+  </a>
+</div>
+
+<!-- PHONE FIXED (TEL LINK ADDED) -->
+      <div class="footer-contact">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+919326246981" style="color:inherit; text-decoration:none;">
+          +91 93262 46981
+        </a>
+      </div>
+
+<!-- EMAIL FIX (MAILTO ADDED) -->
+      <div class="footer-contact">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:info@creativewebsolution.in" class="footer-link">
+          info@creativewebsolution.in
+        </a>
+      </div>
+
+<div class="footer-contact">
+  <a href="https://www.creativewebsolution.in/" 
+     target="_blank" 
+     style="color:inherit; text-decoration:none; display:flex; gap:10px;">
+    
+    <i class="fa-solid fa-globe"></i>
+
+    <span>www.creativewebsolution.in</span>
+
+  </a>
+</div>
+
+</div>
+
+
+<!-- column 2 -->
+
+<div>
+
+<h3 class="footer-title">Quick Links</h3>
+
+<ul class="footer-links">
+<li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+<li><a href="aboutus.html"><i class="fa-solid fa-chevron-right"></i> About US</a></li>
+<li><a href="product-website.html"><i class="fa-solid fa-chevron-right"></i> Product</a></li>
+<li><a href="blog.html"><i class="fa-solid fa-chevron-right"></i> Blog</a></li>
+<!-- <li><a href="support.html"><i class="fa-solid fa-chevron-right"></i> Support</a></li> -->
+<li><a href="contact-website.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+</ul>
+
+</div>
+
+
+<!-- column 3 -->
+
+<div>
+
+<h3 class="footer-title">Newsletters</h3>
+
+<p class="footer-text">
+Elevate your business with Creative Web Solution.
+Experience growth through smart websites and cutting edge digital strategies.
+</p>
+
+<div class="newsletter">
+<input type="email" placeholder="Email goes here">
+<button>Submit</button>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- footer bottom -->
+
+<div class="footer-bottom">
+
+<p style="color:#999999;">
+Copyright © 2026
+<a href="#" style="color:white;">Creative Web Solution</a>.
+ALL RIGHTS RESERVED
+</p>
+
+<div class="footer-social">
+<a href="https://www.linkedin.com/company/creativewebsolution404/?viewAsMember=true"><i class="fa-brands fa-linkedin-in"></i></a>
+<a href="https://www.instagram.com/creativewebsolution/"><i class="fa-brands fa-instagram"></i></a>
+</div>
+
+</div>
+
+</footer>
+        <!-- Footer End -->
+
+
+    <script>
+     function submitForm() {
+  const emailInput = document.getElementById("email");
+  const message = document.getElementById("message");
+  const email = emailInput.value.trim();
+
+  // Email regex
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (email === "") {
+    message.style.color = "red";
+    message.innerText = "Please enter email!";
+    message.style.display = "block";
+  } 
+  else if (!emailPattern.test(email)) {
+    message.style.color = "red";
+    message.innerText = "Please enter a valid email address!";
+    message.style.display = "block";
+  } 
+  else {
+    message.style.color = "green";
+    message.innerText = "Successfully submitted!";
+    message.style.display = "block";
+
+    emailInput.value = "";
+  }
+}
+    </script> 
+    
+    <script>
+      const currentPage = window.location.pathname.split("/").pop();
+
+      const links = document.querySelectorAll(".footer-link a");
+
+      links.forEach(link => {
+        const linkPage = link.getAttribute("href");
+
+        if (linkPage === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    </script>
+
+ <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap 5 JS Bundle (Includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="js/cart.js"></script>
+
+     <!-- ===== CART COUNT SYNC (same as index.html) ===== -->
+<style>
+  .toast-wrap{position:fixed;top:24px;right:24px;z-index:9999;display:flex;flex-direction:column;gap:10px;}
+  .cws-toast{background:#0A2540;color:#fff;padding:14px 20px;border-radius:10px;font-size:14px;font-weight:600;display:flex;align-items:center;gap:10px;box-shadow:0 4px 20px rgba(0,0,0,.2);min-width:260px;animation:cwsIn .3s ease;font-family:'Lato',sans-serif;}
+  .cws-toast.success{border-left:4px solid #22c55e;}
+  .cws-toast.error{border-left:4px solid #e53935;}
+  @keyframes cwsIn{from{transform:translateX(110%);opacity:0}to{transform:translateX(0);opacity:1}}
+  @keyframes cwsOut{from{transform:translateX(0);opacity:1}to{transform:translateX(110%);opacity:0}}
+</style>
+<div class="toast-wrap" id="toastWrap"></div>
+
+<script>
+  var API = 'http://localhost:8081';
+
+  function isLoggedIn() { return !!(localStorage.getItem('token') || sessionStorage.getItem('token')); }
+  function getToken()   { return localStorage.getItem('token') || sessionStorage.getItem('token') || ''; }
+  function clearTokens() {
+    localStorage.removeItem('token');
+    sessionStorage.removeItem('token');
+  }
+
+  function getGuestCart() {
+    try { return JSON.parse(localStorage.getItem('cwsGuestCart') || '[]'); } catch(e) { return []; }
+  }
+
+  async function updateCartCount() {
+    try {
+      if (isLoggedIn()) {
+        const response = await fetch(API + '/api/cart/getcart', {
+          headers: {
+            'Authorization': 'Bearer ' + getToken()
+          }
+        });
+        if (response.status === 401) {
+          clearTokens();
+          document.getElementById('cartCount').innerText = getGuestCart().length;
+          return;
+        }
+        const result = await response.json();
+        if (result.success && result.data && result.data.items) {
+         const count = result.data.items.length;
+const badge = document.getElementById('cartCount');
+badge.innerText = count;
+badge.style.display = count > 0 ? 'block' : 'none';
+        }
+      } else {
+        const gCount = getGuestCart().length;
+const gBadge = document.getElementById('cartCount');
+gBadge.innerText = gCount;
+gBadge.style.display = gCount > 0 ? 'block' : 'none';
+      }
+    } catch (e) {
+      console.log(e);
+      const gCount = getGuestCart().length;
+const gBadge = document.getElementById('cartCount');
+gBadge.innerText = gCount;
+gBadge.style.display = gCount > 0 ? 'block' : 'none';
+    }
+  }
+
+  updateCartCount();
+
+  // Re-sync count when user comes back to this tab
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') updateCartCount();
+  });
+</script>
+  </body>
+</html>
